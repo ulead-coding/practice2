@@ -3,9 +3,11 @@ body {
     padding: 0;
 }
 .ul-test1 {
-    background-color: azure;
+    background-color: blue;
     width: 20%;
+    color: white;
 }
+
 .ul-test2 li {
     list-style: none;
 }
