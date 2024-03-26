@@ -1,7 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-}
+
 .ul-test1 {
     background-color: blue;
     width: 20%;
@@ -27,4 +24,26 @@ body {
 }
 .green {
     color: green;
+}
+@media screen and (max-width:480px) {
+    p,.ul-test2,.a-test1,.a-test2,.a-test3 {
+        text-align: center;
+    }
+    
+    .ul-test1 {
+        margin: 0 auto;
+        width: 46%;
+    }
+.ol-test {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+.ul-test2 {
+    padding: 0;
+}
+li,a {
+    font-size: 20px;
+}
 }
